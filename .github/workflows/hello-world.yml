@@ -1,0 +1,9 @@
+name: hello-world
+on: push
+
+jobs:
+  hello-world:
+    steps:
+      - name: checkout repository code
+        uses: actions/checkout@v4
+      - run: echo "$(hello_world.txt)"      
