@@ -3,6 +3,7 @@ on: push
 
 jobs:
   hello-world:
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repository code
         uses: actions/checkout@v4
